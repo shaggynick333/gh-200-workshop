@@ -18,3 +18,12 @@ jobs:
    steps:
      - name: Say Hello
        run: echo "Hello from GH-200 session. Lets build"
+
+     - name: Generate ASCII artwork
+       run: 
+         sudo apt-get install -y figlet
+         figlet "GH CoHack"
+         echo "----------------------------------"
+         figlet -f slant "GitHub Actions"
+         echo " ASCII Art generated using figlet"
+       
