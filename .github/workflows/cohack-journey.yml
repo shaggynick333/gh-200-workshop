@@ -24,6 +24,6 @@ jobs:
          sudo apt-get install -y figlet
          figlet "GH CoHack"
          echo "----------------------------------"
-         figlet -f slant "GitHub Actions"
-         echo " ASCII Art generated using figlet"
+         figlet -f digital "GitHub Actions"
+         echo "ASCII Art generated using figlet"
        
